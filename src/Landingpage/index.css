@@ -1,0 +1,41 @@
+.container {
+  background-color: #113d3c;
+}
+
+.image {
+  width: 400px;
+  margin-top: -70px;
+  margin-left: -30px;
+  margin-right: 40%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 18px;
+  gap: 61px;
+  color: white;
+}   
+
+.text {
+  font-size: 32px;
+  display: flex;
+  color: white;
+  margin-left: 10%;
+}
+
+.all {
+  margin-left: 200px;
+  margin-top: 4%;
+}
+
+.enjoy {
+  font-size: 40px;
+  margin-top: 20%;
+  margin-left: -10%;
+}
+
+.picture {
+  width: 200%;
+  margin-top: -11%;
+  margin-left: -10%;
+}
