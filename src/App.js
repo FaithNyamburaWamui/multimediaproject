@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <VideoSection /> {/* Keeping VideoSection */}
-      {/* <Footer/> */} // Commented out Footer as per HEAD branch
+      {/* <Footer/> */} 
     </div>
   );
 }
