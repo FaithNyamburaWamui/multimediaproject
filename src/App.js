@@ -1,14 +1,14 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import VideoSection from './Videos';
-import Footer from './Footer';
+import VideoSection from './Videos'; // Keeping VideoSection from HEAD branch
+// Removed the import for Landingpage
 
 function App() {
   return (
     <div className="App">
-      <VideoSection />
-      {/* <Footer/> */}
+      <VideoSection /> {/* Keeping VideoSection */}
+      {/* <Footer/> */} // Commented out Footer as per HEAD branch
     </div>
   );
 }
