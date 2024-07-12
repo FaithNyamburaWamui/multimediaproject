@@ -1,13 +1,15 @@
-// src/App.js
-import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
-import VideoSection from './Videos';
-import Footer from './Footer';
+import VideoSection from './Videos'; // Keeping VideoSection from HEAD branch
+import Landingpage from './Landingpage';
+import Blog from './Blog';
 
 function App() {
   return (
     <div className="App">
-      <VideoSection />
+      <Landingpage/>
+      <VideoSection /> 
+      <Blog/>
       {/* <Footer/> */}
     </div>
   );
