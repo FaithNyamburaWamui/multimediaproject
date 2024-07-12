@@ -1,19 +1,19 @@
 import "./index.css";
 import logo from "./image/logo.png";
 import headphones from "./image/headphones.png";
+// import { FaBars } from "react-icons/fa";
+import { useState } from "react";
 
 function Landingpage() {
-  return (
+    return (
     <div className="container">
       <div className="navbar">
         <img className="image" src={logo} alt="logo" />
-        {/* <div className="page"> */}
         <p>Home</p>
         <p>Video</p>
         <p>Blog</p>
         <p>Podcast</p>
         <p>Resume</p>
-        {/* </div> */}
       </div>
 
       <div className="homepage">
@@ -23,9 +23,7 @@ function Landingpage() {
               Dive into the captivating journey crafted by our talented team.
               Explore our website and learn more about my team.
             </p>
-            {/* <div className="enjoy"> */}
             <p className="enjoy">Enjoy !</p>
-            {/* </div> */}
           </div>
 
           <img className="picture" src={headphones} alt="headphones" />
