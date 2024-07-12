@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import VideoSection from './Videos';
-import Footer from './Footer';
+
 
 function App() {
   return (
