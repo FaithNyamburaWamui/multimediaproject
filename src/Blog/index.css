@@ -1,0 +1,32 @@
+.blog{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+.blog-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.blog-post{
+    background-color: #113D3C;
+    /* color: aliceblue;
+    padding: 70px;
+    border-top-right-radius: 250px;
+    font-size: 14px;
+    margin-left: 200px; */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-top-right-radius: 250px;
+    height: 388px;
+}
+
+.book-img{
+    width: 400px;
+    margin-right: 200px;
+}
